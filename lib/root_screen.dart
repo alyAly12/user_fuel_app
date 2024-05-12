@@ -1,12 +1,12 @@
-import 'package:driver_app/features/providers_feature/presentation/view/providers_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-
 import 'core/utils/app_colors.dart';
 import 'core/utils/assets_manager.dart';
-import 'features/home_feature/presentation/views/home_view.dart';
-import 'features/order_feature/presentation/view/order_view.dart';
-import 'features/support_feature/presentation/view/support_view.dart';
+import 'features/home_feature/presentation/screens/home_view.dart';
+import 'features/order_feature/presentation/screens/order_view.dart';
+import 'features/providers_feature/presentation/screens/providers_view.dart';
+import 'features/support_feature/presentation/screens/support_view.dart';
+
 
 class RootScreen extends StatefulWidget {
   const RootScreen({super.key});
